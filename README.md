@@ -31,13 +31,13 @@ Implement data loaders with efficient batching, shuffling, and parallel processi
 
 # Algorithms
 
-## Faster R-CNN with ViT Backbone:
-Utilize a pre-trained Vision Transformer (ViT) as the feature extraction backbone in place of the conventional CNN architecture.
-Integrate this backbone with the Faster R-CNN framework, modifying the region proposal network (RPN) and detection heads to work with ViT features.
-YOLO (specific version, e.g., YOLOv5):
-Configure the chosen YOLO model for the Pascal VOC dataset, adjusting input dimensions and output classes.
-Optimize the model settings for a balance between detection accuracy and inference speed.
-Training
+## Faster R-CNN 
+
+## YOLO
+
+## ViT
+
+# Training
 
 ## Environment: Python with PyTorch, Google Colab, leveraging CUDA for GPU acceleration.
 
