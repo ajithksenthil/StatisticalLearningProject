@@ -62,6 +62,9 @@ Insights: Discuss insights gained from the comparison, including the impact of a
 
 Code Documentation: Ensure the project code is well-documented, with clear explanations of the implementation details and usage instructions.
 
+
+Note: ReadMe generated with GPT
+
 # Conclusion and Future Work
 
 Summarize the key findings from the comparison, emphasizing practical implications for object detection tasks.
