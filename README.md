@@ -48,7 +48,7 @@ Optimization: Apply optimizers like SGD or Adam, with learning rate schedules an
 # Evaluation and Comparison
 
 ## Metrics:
-Evaluate model performance using metrics such as mean Average Precision (mAP), precision, recall, and F1 score.
+Evaluate model performance using metrics such as mean Average Precision (mAP), precision, recall, IoU and F1 score.
 Measure inference speed and computational efficiency to compare model practicality in real-world applications.
 ## Analysis:
 Conduct a thorough analysis of the models' performance across different object categories and under varying conditions (e.g., object sizes, occlusion).
