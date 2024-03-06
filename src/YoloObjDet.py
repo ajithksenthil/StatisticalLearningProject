@@ -36,4 +36,4 @@ def train_yolov8():
 if __name__ == "__main__":
     train_yolov8()
 
-# comments added, plus assistance with copilot
+# comments added by GPT, plus models suggested and code assisted with GPT

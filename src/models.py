@@ -29,4 +29,4 @@ class ViTForObjectDetection(nn.Module):
         
         return detection_output
 
-# comments added, plus models suggested by GPT
+# comments added by GPT, plus models suggested and code assisted with GPT

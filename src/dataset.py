@@ -120,4 +120,4 @@ Dataset Class: Implement a custom PyTorch dataset class that loads the images an
 Data Loader: Use PyTorch's DataLoader to efficiently load the dataset in batches during training.
 
 """        
-# comments added, plus some methods assisted with GPT
+# comments added by GPT, plus models suggested and code assisted with GPT

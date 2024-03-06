@@ -37,5 +37,5 @@ for epoch in range(num_epochs):
     print(f"Epoch {epoch} Loss: {losses.item()}")
 
 
-
+# comments added by GPT, plus models suggested and code assisted with GPT
 
