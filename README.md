@@ -9,19 +9,27 @@ This project aims to implement and compare the performance of several object det
 ## Dataset: Pascal VOC 2007
 
 Source: The Pascal Visual Object Classes (VOC) 2007 dataset.
+
 Content: The dataset contains images across 20 categories with annotations, including object labels and bounding boxes.
+
 Task: Object detection, requiring the model to predict both the classes and the locations of objects in images.
-Data Processing
+
+# Data Processing
 
 ## Preprocessing:
 Resize images to a uniform size (e.g., 800x800 pixels) for model input.
+
 Normalize pixel values to a range suitable for neural network inputs.
+
 Convert annotations to a format compatible with the models, including class labels and bounding box coordinates.
+
 Augmentation (Optional):
 Apply data augmentation techniques such as flipping, rotation, and scaling to increase the diversity of training data and improve model robustness.
+
 Data Loader Setup:
 Implement data loaders with efficient batching, shuffling, and parallel processing to streamline training and evaluation.
-Algorithms
+
+# Algorithms
 
 ## Faster R-CNN with ViT Backbone:
 Utilize a pre-trained Vision Transformer (ViT) as the feature extraction backbone in place of the conventional CNN architecture.
@@ -31,10 +39,13 @@ Configure the chosen YOLO model for the Pascal VOC dataset, adjusting input dime
 Optimize the model settings for a balance between detection accuracy and inference speed.
 Training
 
-## Environment: Python with PyTorch or TensorFlow, leveraging CUDA for GPU acceleration.
+## Environment: Python with PyTorch, Google Colab, leveraging CUDA for GPU acceleration.
+
 Loss Functions: Utilize appropriate loss functions for object detection, combining classification and bounding box regression losses.
+
 Optimization: Apply optimizers like SGD or Adam, with learning rate schedules and regularization techniques to improve training outcomes.
-Evaluation and Comparison
+
+# Evaluation and Comparison
 
 ## Metrics:
 Evaluate model performance using metrics such as mean Average Precision (mAP), precision, recall, and F1 score.
