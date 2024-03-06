@@ -66,3 +66,6 @@ for epoch in range(num_epochs):
         optimizer.step()
 
     print(f'Epoch {epoch+1}, Loss: {losses.item()}')
+
+
+# comments added, plus models suggested with GPT

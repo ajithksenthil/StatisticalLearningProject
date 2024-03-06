@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 
 
 class VOCDataset(Dataset):
-    def __init__(self, root_dir, year="2007", image_set="train", transform=None):
+    def __init__(self, root_dir, year="2012", image_set="train", transform=None):
         """
         Args:
             root_dir (string): Directory with all the images and annotations.
@@ -113,10 +113,11 @@ if __name__ == "__main__":
 
 
 """
-Download and Prepare the Pascal VOC 2007 Dataset: Make sure you've downloaded the dataset from its official website or a trusted source. This dataset includes images and annotations (in XML format) that describe the objects within each image.
+Download and Prepare the Pascal VOC 2012 Dataset: Make sure you've downloaded the dataset from its official website or a trusted source. This dataset includes images and annotations (in XML format) that describe the objects within each image.
 
 Dataset Class: Implement a custom PyTorch dataset class that loads the images and their corresponding annotations, converts the annotations to a tensor format suitable for object detection models, and performs any required preprocessing steps (e.g., resizing images, normalizing pixel values).
 
 Data Loader: Use PyTorch's DataLoader to efficiently load the dataset in batches during training.
 
 """        
+# comments added, plus some methods assisted with GPT

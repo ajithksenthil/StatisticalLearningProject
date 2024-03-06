@@ -2,10 +2,10 @@ import torch
 from torch.utils.data import DataLoader
 from torchvision import transforms
 # Assuming `YOLOv8` is a placeholder for the actual YOLOv8 model class
-from model import YOLOv8 
+from models import YOLOv8 
 
 # Load the dataset (see your VOCDataset class implementation)
-from datset import VOCDataset, get_transform
+from dataset import VOCDataset, get_transform
 
 def train_yolov8():
     # Initialize the model
@@ -35,3 +35,5 @@ def train_yolov8():
 
 if __name__ == "__main__":
     train_yolov8()
+
+# comments added, plus assistance with copilot
